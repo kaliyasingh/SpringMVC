@@ -58,6 +58,18 @@ public class Account {
 			   "Account holder name :"+name+"\n"+
 			   "Account balance :"+balance+"\n";
 	}
+
+	public static int getFlag() {
+		return flag;
+	}
+
+	public static void setFlag(int flag) {
+		Account.flag = flag;
+	}
+
+	public void setAccount_no(long account_no) {
+		this.account_no = account_no;
+	}
 	
 	
 

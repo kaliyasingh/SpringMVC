@@ -63,6 +63,47 @@ public class Statement {
 		return    date_time.format(DateTimeFormatter.ofPattern("yyyy-MM-dd  HH:mm:ss"))
 			    + "\t  "+withdrwal+"\t   "+deposite+"\t  "+balance+" ";
 		}
+
+
+	public LocalDateTime getDate_time() {
+		return date_time;
+	}
+
+
+	public void setDate_time(LocalDateTime date_time) {
+		this.date_time = date_time;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public int getBalance() {
+		return balance;
+	}
+
+
+	public void setBalance(int balance) {
+		this.balance = balance;
+	}
+
+
+	public int getWithdrwal() {
+		return withdrwal;
+	}
+
+
+	public int getDeposite() {
+		return deposite;
+	}
+	
 	
 
 
